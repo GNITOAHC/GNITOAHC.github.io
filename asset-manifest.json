@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.85323dac.css",
-    "main.js": "/static/js/main.47a8148f.js",
-    "static/media/Blog-header.jpg": "/static/media/Blog-header.d57ae279fb8da9faa818.jpg",
-    "static/media/Me2.jpg": "/static/media/Me2.703e66a97e61b87382f1.jpg",
-    "index.html": "/index.html",
-    "main.85323dac.css.map": "/static/css/main.85323dac.css.map",
-    "main.47a8148f.js.map": "/static/js/main.47a8148f.js.map"
+    "main.css": "/GNITOAHC.github.io/static/css/main.85323dac.css",
+    "main.js": "/GNITOAHC.github.io/static/js/main.4f57bf57.js",
+    "static/media/Blog-header.jpg": "/GNITOAHC.github.io/static/media/Blog-header.d57ae279fb8da9faa818.jpg",
+    "static/media/Me2.jpg": "/GNITOAHC.github.io/static/media/Me2.703e66a97e61b87382f1.jpg",
+    "index.html": "/GNITOAHC.github.io/index.html",
+    "main.85323dac.css.map": "/GNITOAHC.github.io/static/css/main.85323dac.css.map",
+    "main.4f57bf57.js.map": "/GNITOAHC.github.io/static/js/main.4f57bf57.js.map"
   },
   "entrypoints": [
     "static/css/main.85323dac.css",
-    "static/js/main.47a8148f.js"
+    "static/js/main.4f57bf57.js"
   ]
 }
