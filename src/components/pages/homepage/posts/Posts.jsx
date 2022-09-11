@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import './posts.css'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 // import Data from '../../../../data/posts.json'
 
 const Posts = () => {
@@ -38,9 +39,9 @@ const Posts = () => {
         <img className="post-image" src={data.image} alt={data.image_alt} />
         <div className="postInfo">
           <div className="postCats">{tags}</div>
-          <a href={destination} className="post-title" name="hello">
+          <Link to={destination} className="post-title" name="hello">
             {data.title}
-          </a>
+          </Link>
           <span className="post-date">{data.date}</span>
         </div>
         <p className="post-content">{data.preview}</p>
