@@ -1,0 +1,51 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-bg-topbar);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  z-index: 99;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  /* background-color: Tomato; */
+}
+
+.topLeft-Icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--color-topbar-icons);
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topCenter-List {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+.topCenter-ListItem {
+  margin: auto 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.topCenter-ListItem:hover {
+  font-weight: bold;
+  /* background-color: Gray; */
+  transition: all 400ms ease;
+}
+

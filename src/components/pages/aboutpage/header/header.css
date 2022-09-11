@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.header_section {
+  /* margin-top: 90px; */
+  /* background: url('https://images.pexels.com/photos/4063721/pexels-photo-4063721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+  /* width: 100%; */
+  height: calc(100vh - 50px);
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  /* font-family: 'Rubik Iso', cursive; */
+  font-family: 'League Script', cursive;
+  /* font-family: 'Parisienne', cursive; */
+  font-size: 7em;
+  color: White;
+}

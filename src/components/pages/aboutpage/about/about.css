@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+.about {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left-section,
+.right-section {
+  flex: 5;
+  padding: 7vh;
+}
+
+.about-header {
+  font-family: 'Bodoni Moda', serif;
+  text-align: center;
+}
+
+.about-inform,
+.about-skill {
+  margin: 10px;
+}

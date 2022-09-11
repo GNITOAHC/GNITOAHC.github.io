@@ -1,0 +1,19 @@
+.para {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  /* background-color: Black; */
+}
+
+.flexbox-left {
+  flex: 12;
+}
+
+.flexbox-right {
+  flex: 8;
+}
+
+p {
+  background: rgba(255, 255, 255, 0.5);
+  display: inline;
+}

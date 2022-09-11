@@ -1,0 +1,12 @@
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.singlePost {
+  flex: 7;
+}
+
+.tmpsidebar {
+  flex: 3;
+}

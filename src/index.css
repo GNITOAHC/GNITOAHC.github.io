@@ -1,13 +1,25 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@0,600;1,400;1,500&family=Varela&family=Varela+Round&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bg-topbar: White;
+  --color-topbar-icons: Black;
+  --color-sidebar-bg: #fbfbfb;
+  --color-post-tag: #be9656;
+  --color-singlePost-date: #be9656;
+  --color-singlePost-author: #be9656;
+  --color-contactpage-sendbtn-bg: White;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }

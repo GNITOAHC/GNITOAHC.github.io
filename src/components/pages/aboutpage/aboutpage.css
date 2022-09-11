@@ -1,0 +1,8 @@
+.Aboutpage {
+  background: url('https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-position: center;
+  /* height: calc(100vh - 50px); */
+  height: calc(100vh - 50px + 100vh + 50vh + 6vh);
+  /* width: 100%; */
+  background-attachment: fixed;
+}
